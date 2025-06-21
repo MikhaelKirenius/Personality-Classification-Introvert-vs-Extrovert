@@ -55,3 +55,27 @@ The **SVM model** was selected as the best model based on cross-validation and t
 - **F1-score** (Extrovert): 0.92
 
 ### Confusion Matrix:
+Predicted
+                 |  Introvert | Extrovert
+Actual Introvert |     267     | 31
+Actual Extrovert |     17      | 265
+
+
+The model generalizes well with no signs of overfitting, as cross-validation and test scores are consistent.
+
+## 🛠️ Tools & Libraries
+
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn
+- XGBoost
+
+## 🚀 How to Run
+
+1. Clone the repository or open the notebook.
+2. Install requirements:
+   ```bash
+   pip install -r requirements.txt
+
+
